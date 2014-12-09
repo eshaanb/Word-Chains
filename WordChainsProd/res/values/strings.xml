@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="game_type_prompt">Choose a topic</string>
+    <string name="mode_prompt">Choose a mode</string>
+    <string name="register">Register</string>
+    <string name="desc">ImageView</string>
+    <string name="ok">Okay</string>
+    <string name="login">Login</string>
+    <string name="type">Type</string>
+    <string name="mode">Mode</string>
+    <string name="message_to_send">Your message&#8230;</string>
+    <string name="message_friend">Message Friend</string>
+    <string name="your_message">Message To Send</string>
+    <string name="friends_list">Friends List</string>
+    <string name="email_address">Email Address</string>
+    <string name="no_games">You have no recent games!\nPress New Game to create a game with one of your facebook friends!</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="feedback_title">Feedback Is Greatly Appreciated</string>
+    <string name="submit">Submit</string>
+    <string name="app_id">513018728715395</string>
+    <string name="or">OR</string>
+    <string name="send">Send</string>
+    <string name="forfeit">Forfeit Game</string>
+    <string name="retry">Retry</string>
+    <string name="exit">Exit</string>
+    <string name="friend">Friend</string>
+	<string name="computer">Bot</string>
+    <string name="post_on_wall">This friend has not installed the app yet! Would you like to send %1$s a request to start using Word Chains?</string>
+    <string name="network_error">Network Error</string>
+    <string name="client_error">Version Error</string>
+    <string name="info_title">Mode Information</string>
+    <string name="info_body">There are two modes, Word Chainer and Time Attack.\nWord Chainer is a casual mode where you can play with a friend for as long as you want and keep chaining words until one person gives up.\nTime attack mode is a more competitive mode where you get 1 minute to write as many words in the given topic as you can and then your opponent gets to do the same and whoever accumulates more points wins!</string>
+    <string name="out_of_date_error">Your client is out of date, please update.</string>
+    <string name="update">Update</string>
+    <string name="conflict">Conflict</string>
+    <string name="friend_and_computer_error">You cannot have a game with both a friend and a bot, which one would you like to create a game with?</string>
+    <string name="getting_games">Getting games&#8230;</string>
+    <string name="network_error_message">A network error occurred. Would you like to retry or exit?</string>
+    <string name="network_required">A valid network connection is required to use this app. Please confirm your network connection and try again.</string>
+    <string name="image_view">ImageView</string>
+    <string name="invalid_artist">Invalid Artist Specified. Please re-enter a valid music artist.</string>
+    <string name="invalid_video_game">Invalid Video Game Specified. Please re-enter a valid video game.</string>
+    <string name="invalid_show_or_movie">Invalid TV Show or Movie Specified. Please re-enter a valid TV Show or Movie.</string>
+    <string name="login_with_facebook">Login With Facebook</string>
+    <string name="opponent_email">Opponent Email</string>
+    <string name="your_word">Your Word</string>
+    <string name="new_game_title">Create New Game</string>
+    <string name="gamename">Game Name</string>
+    <string name="create_new_game">Create New Game</string>
+    <string name="finish_game">Finished</string>
+    <string name="vs_computer">Play Versus Computer</string>
+    <string name="fb_friends">Choose a Friend!</string>
+    <string name="network_fail">Destination could not be reached.</string>
+    <string name="push_notification_failed">Push notification server could not be reached.</string>
+    <string name="game_list">Game List</string>
+    <string name="new_game">New Game</string>
+    <string name="active_friends">Active Friends</string>
+    <string name="all_friends">All Friends</string>
+    <string name="logout">Log Out</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="confirm_logout">Are you sure you would like to logout? (All your bot games will be cleared)</string>
+    <string name="app_name">Word Chains</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    <string name="word_chainer">Word Chainer</string>
+    <string name="time_attack">Time Attack</string>
+    <string name="score_title">Scores</string>
+    
+    <string-array name="modes">
+        <item>Word Chainer</item>
+        <item>Time Attack</item>
+    </string-array>
+    
+    <string-array name="game_types">
+        <item>All Words</item>
+        <item>Countries</item>
+        <item>Magic Cards</item>
+        <item>Movies And TV Shows</item>
+        <item>Musicians</item>
+        <item>Pokemon</item>
+        <item>Video Games</item>
+    </string-array>
+    
+</resources>

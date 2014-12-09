@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allscreensbcg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/darkbar"
+        android:gravity="center"
+        android:text="@string/friends_list"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/active_friends_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/friendslisttitlebar"
+        android:gravity="center"
+        android:text="@string/active_friends"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/spinner_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedcornerlistview" >
+
+        <ProgressBar
+            android:id="@+id/doing_request"
+            style="@android:style/Widget.ProgressBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/reg_friends_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/roundedcornerlistview"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ListView
+            android:id="@+id/registered_friends"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedcornerlistview"
+            android:cacheColorHint="@android:color/transparent" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/all_friends_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/friendslisttitlebar"
+        android:gravity="center"
+        android:text="@string/all_friends"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/friends_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:background="@drawable/roundedcornerlistview"
+        android:cacheColorHint="@android:color/transparent" />
+
+</LinearLayout>
